@@ -18,9 +18,12 @@ opencv_contrib [下载地址](https://github.com/opencv/opencv_contrib/releases/
 ### Cmake安装
 直接默认安装即可。
 
-### Visual Studio 2017安装
+~~### Visual Studio 2017安装
 目前是2019版本，大学时期就安装了2017的社区版。
-我的是全部组件都安装了。这里省略。
+我的是全部组件都安装了。这里省略。~~
+
+###Visual Studio 2019安装
+根据步骤来即可，我这里选择全部安装，也可以根据需要选择不安装的内容。
 
 ### OpenCV4.1.1
 1. 所有安装路径推荐只包含英文。
