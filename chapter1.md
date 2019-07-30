@@ -42,8 +42,9 @@ opencv_contrib [下载地址](https://github.com/opencv/opencv_contrib/releases/
 1. 在输出文件夹找到OpenCV.sln文件，即编译成功。
 
 ### VS2017编译
-用VS打开`OpenCV.sln`。
-    
+1. 用VS打开`OpenCV.sln`，等待。
+1. 点击`生成->重新生成解决方案`，继续等待
+1.    
     
     
 # 未完待续
