@@ -52,12 +52,12 @@ opencv_contrib [下载地址](https://github.com/opencv/opencv_contrib/releases/
 1. 创建一个空源文件。
 1. 将上方的`x86`改为`x64`。
 1. 点击`视图->其他窗口->属性管理器`。
-    5. 右键`Debug|x64`单击`属性`。
-    6. 进入`VC++目录`
-    7. 添加`你的路径\opencv\build\include`和`你的路径\opencv\build\include\opencv2`到`包含目录`
-    8. 添加`你的路径\opencv\build\x64\vc14\lib`到`库目录`。
-    9. 进入`链接器->输入`,添加`opencv_world411d.lib`进入`附加依赖项`（这里411是当前版本4.1.1，下一个版本4.1.2这里就是opencv_world412d.lib，以此类推）
-    10. 确定
+1. 右键`Debug|x64`单击`属性`。
+1. 进入`VC++目录`
+1. 添加`你的路径\opencv\build\include`和`你的路径\opencv\build\include\opencv2`到`包含目录`
+1. 添加`你的路径\opencv\build\x64\vc14\lib`到`库目录`。
+1. 进入`链接器->输入`,添加`opencv_world411d.lib`进入`附加依赖项`（这里411是当前版本4.1.1，下一个版本4.1.2这里就是opencv_world412d.lib，以此类推）
+1. 确定
 
 在源文件中测试以下代码:
 ```c++
