@@ -20,8 +20,12 @@ opencv_contrib [下载地址](https://github.com/opencv/opencv_contrib/releases/
 
 ### Visual Studio 2017安装
 目前是2019版本，大学时期就安装了2017的社区版。
-我的是全部组件都安装了。这里省略
+我的是全部组件都安装了。这里省略。
 
 ### OpenCV4.1.1
-1. 下载两个资源
-1. 将opencv_contrib解压到指定位置(路径建议全英文)
+1. 所有安装路径推荐只包含英文。
+1. 下载两个资源。
+1. 将opencv_contrib4.1.1解压到指定位置(路径建议全英文)。
+1. 执行opencv-4.1.1-vc14_vc15.exe解压到指定位置。
+1. 打开cmake，按以下步骤执行
+    * 设置Where is the source code到路径opencv4.1.1/opencv/sources
