@@ -6,7 +6,7 @@
 系统：windows10professional
 软件：
 cmake：3.15.1 [下载地址](https://cmake.org/download/)
-visual studio 2017（现在是2019） [下载地址](https://visualstudio.microsoft.com/zh-hans/?rr=https%3A%2F%2Fwww.bing.com%2F)
+visual studio ~~2017~~（现在是2019） [下载地址](https://visualstudio.microsoft.com/zh-hans/?rr=https%3A%2F%2Fwww.bing.com%2F)
 opencv 4.1.1 [下载地址](https://opencv.org/releases/)
 opencv_contrib [下载地址](https://github.com/opencv/opencv_contrib/releases/tag/4.1.1)
 
@@ -41,11 +41,10 @@ opencv_contrib [下载地址](https://github.com/opencv/opencv_contrib/releases/
     * 完成后左下角显示**Configuring done， Generating done**。
 1. 在输出文件夹找到OpenCV.sln文件，即编译成功。
 
-### VS2017编译
-1. 用VS打开`OpenCV.sln`，等待。
-1. 点击`生成->重新生成解决方案`，继续漫长等待。
-1. `解决方案资源管理器->CMakeTargets->INSTALL->仅用于项目->仅生成INSTALL`,还是等待。
-1. 
+### ~~VS2017~~VS2019编译
+~~使用vs2017进行配置时遇到了一个大坑，费了很多时间，现在已经转到VS2019。~~
+
+
     
     
 # 未完待续
