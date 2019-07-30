@@ -1,4 +1,4 @@
-# 学习笔记（一）_环境配置
+# 学习笔记（一）_安装及环境配置
 
 ## 操作环境
 
@@ -43,8 +43,9 @@ opencv_contrib [下载地址](https://github.com/opencv/opencv_contrib/releases/
 
 ### VS2017编译
 1. 用VS打开`OpenCV.sln`，等待。
-1. 点击`生成->重新生成解决方案`，继续等待
-1.    
+1. 点击`生成->重新生成解决方案`，继续等待。
+1. `解决方案资源管理器->CMakeTargets->INSTALL->仅用于项目->仅生成INSTALL`,还是等待。
+1. 
     
     
 # 未完待续
